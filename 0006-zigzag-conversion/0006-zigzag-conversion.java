@@ -1,5 +1,7 @@
 class Solution {
     public String convert(String s, int numRows) {
+
+        //TimeComplexity is O(N) and Space Complexity is O(N)
         int len = s.length();
         
         if(numRows==1 || len==1){
